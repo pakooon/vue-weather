@@ -50,7 +50,7 @@
       }
     },
     mounted () {
-      this.$bus.$on('setCoordinate', this.setCoordinate)
+      this.$bus.$on('sendCoordinate', this.setCoordinate)
     }
   }
 </script>
